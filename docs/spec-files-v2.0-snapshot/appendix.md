@@ -67,21 +67,21 @@ This section defines the recipient private keys in JWK format.
 ```json
 [
   {
-    :"did:example:bob#key-x25519-1",
+    "kid" :"did:example:bob#key-x25519-1",
     "kty":"OKP",
     "d":"b9NnuOCB0hm7YGNvaE9DMhwH_wjZA1-gWD6dA0JWdL0",
     "crv":"X25519",
     "x":"GDTrI66K0pFfO54tlCSvfjjNapIs44dzpneBgyx0S3E"
   },
   {
-    :"did:example:bob#key-x25519-2",
+    "kid" :"did:example:bob#key-x25519-2",
     "kty":"OKP",
     "d":"p-vteoF1gopny1HXywt76xz_uC83UUmrgszsI-ThBKk",
     "crv":"X25519",
     "x":"UT9S3F5ep16KSNBBShU2wh3qSfqYjlasZimn0mB8_VM"
   },
   {
-    :"did:example:bob#key-x25519-3",
+    "kid" :"did:example:bob#key-x25519-3",
     "kty":"OKP",
     "d":"f9WJeuQXEItkGM8shN4dqFr5fLQLBasHnWZ-8dPaSo0",
     "crv":"X25519",
