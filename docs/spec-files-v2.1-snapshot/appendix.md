@@ -88,7 +88,7 @@ This section defines the recipient private keys in JWK format.
     "x":"82k2BTUiywKv49fKLZa-WwDi8RBf0tB0M8bvSAUQ3yY"
   },
   {
-    :"did:example:bob#key-p256-1",
+    "kid" :"did:example:bob#key-p256-1",
     "kty":"EC",
     "d":"PgwHnlXxt8pwR6OCTUwwWx-P51BiLkFZyqHzquKddXQ",
     "crv":"P-256",
@@ -96,7 +96,7 @@ This section defines the recipient private keys in JWK format.
     "y":"6XFB9PYo7dyC5ViJSO9uXNYkxTJWn0d_mqJ__ZYhcNY"
   },
   {
-    :"did:example:bob#key-p256-2",
+    "kid" :"did:example:bob#key-p256-2",
     "kty":"EC",
     "d":"agKz7HS8mIwqO40Q2dwm_Zi70IdYFtonN5sZecQoxYU",
     "crv":"P-256",
@@ -104,7 +104,7 @@ This section defines the recipient private keys in JWK format.
     "y":"ov0buZJ8GHzV128jmCw1CaFbajZoFFmiJDbMrceCXIw"
   },
   {
-    :"did:example:bob#key-p384-1",
+    "kid" :"did:example:bob#key-p384-1",
     "kty":"EC",
     "d":"ajqcWbYA0UDBKfAhkSkeiVjMMt8l-5rcknvEv9t_Os6M8s-HisdywvNCX4CGd_xY",
     "crv":"P-384",
@@ -112,7 +112,7 @@ This section defines the recipient private keys in JWK format.
     "y":"X_3HJBcKFQEG35PZbEOBn8u9_z8V1F9V1Kv-Vh0aSzmH-y9aOuDJUE3D4Hvmi5l7"
   },
   {
-    :"did:example:bob#key-p384-2",
+    "kid" :"did:example:bob#key-p384-2",
     "kty":"EC",
     "d":"OiwhRotK188BtbQy0XBO8PljSKYI6CCD-nE_ZUzK7o81tk3imDOuQ-jrSWaIkI-T",
     "crv":"P-384",
@@ -120,7 +120,7 @@ This section defines the recipient private keys in JWK format.
     "y":"W9LLaBjlWYcXUxOf6ECSfcXKaC3-K9z4hCoP0PS87Q_4ExMgIwxVCXUEB6nf0GDd"
   },
   {
-    :"did:example:bob#key-p521-1",
+    "kid" :"did:example:bob#key-p521-1",
     "kty":"EC",
     "d":"AV5ocjvy7PkPgNrSuvCxtG70NMj6iTabvvjSLbsdd8OdI9HlXYlFR7RdBbgLUTruvaIRhjEAE9gNTH6rWUIdfuj6",
     "crv":"P-521",
@@ -128,7 +128,7 @@ This section defines the recipient private keys in JWK format.
     "y":"ATZVigRQ7UdGsQ9j-omyff6JIeeUv3CBWYsZ0l6x3C_SYqhqVV7dEG-TafCCNiIxs8qeUiXQ8cHWVclqkH4Lo1qH"
   },
   {
-    :"did:example:bob#key-p521-2",
+    "kid" :"did:example:bob#key-p521-2",
     "kty":"EC",
     "d":"ABixMEZHsyT7SRw-lY5HxdNOofTZLlwBHwPEJ3spEMC2sWN1RZQylZuvoyOBGJnPxg4-H_iVhNWf_OtgYODrYhCk",
     "crv":"P-521",
